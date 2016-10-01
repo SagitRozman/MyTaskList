@@ -1,0 +1,82 @@
+* {
+  font-family: cursive;
+}
+
+.core-layout__viewport {
+  padding-top: 4rem;
+}
+
+.todo-tasks {
+  background-color: #f3f3f3;
+  padding: 10px;
+  border: 5px solid rgba(12, 91, 130, 0.5);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.completed-tasks {
+  background-color: white;
+  padding: 10px;
+  border: 5px solid rgba(12, 91, 130, 0.5);
+  border-top: none;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.completed-tasks .task-item {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.assignee:before,
+.due-date:before {
+  color: rgba(128, 128, 128, 0.71);
+}
+
+.assignee:before {
+  content: 'Assigned to ';
+}
+
+.due-date:before {
+  content: 'Due to ';
+  margin-left: 5px;
+}
+
+.todo-tasks .description {
+  font-size: 18px;
+}
+
+.description:after {
+  content: ' - ';
+}
+
+.task-list {
+  list-style-type: none;
+}
+
+input[type=checkbox].completed {
+  margin-right: 5px;
+}
+
+.top-buffer {
+  margin-top: 10px;
+}
+
+.add-btn {
+  display: block;
+}
+
+.react-datepicker__input-container {
+  display: block!important;
+}
+
+.edit-btn {
+  margin-left:10px;
+}
+
+.edit-btn:before {
+  content: ' - ';
+}
+
+.task-detail-title {
+  text-align: left;
+  padding-bottom: 10px;
+}
