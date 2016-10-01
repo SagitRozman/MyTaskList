@@ -11,7 +11,7 @@ I based my solution on [react redux starter kit](https://github.com/davezuko/rea
 First, clone the project:
 
 ```bash
-$ git clone myRepo
+$ git clone https://github.com/sagitshemesh/MyTaskList.git
 ```
 
 Then install dependencies and run:
